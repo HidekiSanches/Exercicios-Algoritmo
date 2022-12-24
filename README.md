@@ -2,5 +2,8 @@
 <p align="center">Exercícios em JS da matéria de Algoritmo da faculdade SPTech</p>
 <div>
 <img src="https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg">
-<img src="https://badgen.net/github/commits/HidekiSanches/Exercicios-Algoritmo">
+[![GitHub commits](https://badgen.net/github/commits/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
+```markdown
+[![GitHub commits](https://badgen.net/github/commits/Naereen/Strapdown.js)](https://GitHub.com/Naereen/StrapDown.js/commit/)
+```
 </div>
