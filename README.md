@@ -7,4 +7,4 @@
 <br/><br/>
 <h2>Autor</h2>
 <div>
-<img style="border-radius: 100%;" src="https://avatars.githubusercontent.com/u/111136206?v=4" width="100px;" alt=""/><br/><sub><b>Thiago Hideki</b></sub></div>
+<img style="border-radius: 100%;" src="https://avatars.githubusercontent.com/u/111136206?v=4" width="200px;" alt=""/><br/><sub><b morgin-left="10px">Thiago Hideki</b></sub></div>
