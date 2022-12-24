@@ -2,5 +2,5 @@
 <p align="center">Exercícios em JS da matéria de Algoritmo da faculdade SPTech</p>
 <div>
 <img src="https://img.shields.io/badge/Made%20with-JavaScript-1f425f.svg">
-<img src="https://badgen.net/github/HidekiSanches/Exercicios-Algoritmo/commit/main"
+<img src="https://badgen.net/github/commits/HidekiSanches/Exercicios-Algoritmo"
 </div>
