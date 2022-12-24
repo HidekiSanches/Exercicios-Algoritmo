@@ -1,4 +1,4 @@
-<img src="https://miro.medium.com/max/1100/0*fcnL6h72kX6skH7H.jpeg" height="200px" width="900px">
+<img src="https://miro.medium.com/max/1100/0*fcnL6h72kX6skH7H.jpeg" height="200px" style="size: cover">
 <h1 align="center">Exercícios de Algoritmo</h1> 
 <p align="center">Exercícios em JS da matéria Algoritmo da faculdade SPTech</p>
 <div>
