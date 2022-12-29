@@ -105,3 +105,10 @@ body::before {
   #error {
     margin-top: 10px;
   }
+  img {
+    width: 100px;
+    position: absolute;
+    bottom: 600px;
+    justify-content: center;
+    display: flex;
+  }
