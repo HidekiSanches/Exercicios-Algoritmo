@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    color: #fff;
+  }
+  body {
+    overflow: hidden;
+    background-color: #424549;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  input:focus, label:focus {
+    outline: none;
+  }
+  .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 2px #23272a;
+    border-right: solid 2px #23272a;
+    margin-top: 180px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: rgb(43,47,52,90%);
+    padding: 25px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.380);
+    animation: go-back 2s infinite alternate;
+  }
+  .box label {
+    font-weight: bold;
+    font-size: .8rem;
+    width: 100%;
+  }
+  .box input {
+    background-color: rgb(43,47,52,80%);
+    border-bottom: solid 2px #23272a;
+    padding: 10px;
+    font-size: .9rem;
+    border-radius: 4px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .box input:focus {
+    border-color: #ff4500;
+  }
+  .box button:hover {
+    background-color: #a52c00;
+  }
+  .box button {
+    border-radius: 20px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: .9rem;
+    transition: 2s;
+    background-color: #ff4500;
+    cursor: pointer;
+    width: 49%;
+  }
+  .box h1{
+    margin-bottom: 25px;
+    font-size: 1.6rem;
+  }
+  .button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  body::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    border: 100px solid transparent;
+    border-left: 0px solid #282b30;
+    right: 0;
+    border-top: 100px solid #282b30;
+    border-right: 150px solid #282b30;
+  }
+  body::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 100px solid transparent;
+    border-left: 150px solid #282b30;
+    border-bottom: 100px solid #282b30;
+    border-right: 0px solid #282b30;
+    right: 0;
+  }
+  img {
+    width: 100px;
+    position: absolute;
+    bottom: 90px;
+    justify-content: center;
+    display: flex;
+  }
+  @keyframes go-back {
+    from {
+      transform: translatey(10px);
+    }
+    to {
+      transform: translatey(-10px);
+    }
+  }
+  .box:hover{
+    animation: none;
+  }
+  #error {
+    margin-top: 10px;
+  }
+  
