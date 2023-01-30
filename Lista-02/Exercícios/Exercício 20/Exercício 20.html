@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 20 - Dragon Ball</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/762/762724.png"/>
+</head>
+<body>
+    <div class="box">
+        <h1>Dragon Ball</h1>
+        <label for="poder">Poder:</label>
+        <input type="text" id="poder" placeholder="Digíte o poder do guerreiro" autofocus>
+        <div class="frase"><center>Transformar em...</center></div>
+        <div class="button">
+            <button onclick="ssj()">SSJ</button><button onclick="ssj2()">SSJ2</button><button onclick="ssj3()">SSJ3</button>
+        </div>
+        <div id="error"></div>
+    </div>
+    <img src="../assets/fox.gif">
+</body>
+</html>
+<script src="main.js">
+//     21.	Crie um programa que demonstre como o poder de guerreiros Sayajins da franquia de desenhos animados Dragon Ball aumenta na medida em que se transformam:
+// a) Solicite o "ki base" (força base) do guerreiro Sayajin
+// b) Abaixo, deve haver o texto "Transformar em..."
+// c) Abaixo, devem haver os botões "SSJ", "SSJ2", "SSJ3", lado a lado entre si
+// d) Ao clicar num dos botões, é calculado o novo ki do Sayajin conforme a regra de cada transformação...
+//     SSJ: ki base x 50
+//     SSJ2: ki base x 100
+//     SSJ3: ki base x 200
+// e) O valor do novo ki deve aparecer abaixo com uma frase como esta:
+//     Após se transformar em X, o ki desse Sayajin passa a ser de Y
+//     Onde X é o nome da transformação (SSJ, SSJ2 ou SSJ3) e Y é o valor calculado em d)
+</script>
